@@ -21,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Sign_in />} />
-          <Route path="/React_Quiz_app" element={<Sign_in />} />
+          <Route path="/React_Quiz_app_updated" element={<Sign_in />} />
           <Route element={<ProtectedRoutes />}>
             <Route path="/timeline" element={<Timeline />} />
             <Route path="/logout" element={<Logout />} />
