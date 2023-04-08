@@ -262,7 +262,7 @@ function Timeline() {
           </div>
           <div className="logout">
             <button
-              className="px-2 py-2 rounded-circle  shadow"
+              className="px-2 py-1 rounded-circle  shadow"
               data-bs-toggle="tooltip"
               data-bs-placement="top"
               title="Logout"

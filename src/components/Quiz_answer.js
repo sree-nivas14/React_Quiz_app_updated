@@ -160,17 +160,17 @@ function Quiz_answer({ score, handle, question_count }) {
               style={{ borderRadius: "15px" }}
             >
               <div
-                className="border border-2 mt-2 border-grey rounded bg-color"
+                className="border border-2 border-grey rounded bg-color"
                 style={{ position: "fixed" }}
               >
                 <div className="fs-6">
-                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-2 result_tab">
+                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-1 result_tab">
                     Total No Of Questions : {question_len}
                   </h6>
-                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-2 result_tab">
+                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-1 result_tab">
                     Answered Questions : {checked_ques}
                   </h6>
-                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-2 result_tab">
+                  <h6 className="border border-2 border-grey rounded bg-white m-1 px-1 result_tab">
                     Unanswered Questions :{question_len - checked_ques}
                   </h6>
                 </div>
@@ -200,7 +200,7 @@ function Quiz_answer({ score, handle, question_count }) {
                 <form>
                   <div className="card border-0">
                     <div
-                      className="card-body bg-color contain"
+                      className="card-body bg-color p-0 contain"
                       style={{ borderRadius: "15px" }}
                     >
                       <div
@@ -215,7 +215,7 @@ function Quiz_answer({ score, handle, question_count }) {
                       </div>
                       {QuizData.map((quiz, i) => (
                         <div
-                          className="m-3 pt-3 ps-3 card_bg"
+                          className="m-3 pt-3 ps-3 pe-3 card_bg"
                           style={{ borderRadius: "20px" }}
                         >
                           <ul className="list-unstyled">
